@@ -1,1 +1,26 @@
-Social Engineering  place holder as well, will fix 
+# Day 2 – Phishing - Merry Clickmas (Phishing & SEToolkit)
+
+Mood going in: "Phishing? Yeah I know not to click random links, easy day"  
+Mood coming out: "I just built a fake login page that looks scarily real… I am become Grinch"
+
+This was my first time ever touching the Social-Engineer Toolkit (setoolkit) and bro…  
+I was WAY too serious about it. Full villain mode activated.
+
+## Highlights
+- Learned the actual difference between spear-phishing, whaling, vishing, etc. (way more types than I thought)
+- SEToolkit is stupidly powerful; picked a template, put in a redirect URL, hit enter… boom, perfect-looking login page ready to ruin someone’s day
+- The tool literally does 95% of the work for you. Red teaming feels like cheating sometimes
+
+## Personal L
+I had to step away mid-phishing-email creation because life.  
+Came back and everything was gone. Had to rebuild the whole campaign.  
+100% my fault, but I was heated for like 30 seconds… then realized “well, free extra practice I guess” 😂
+
+## Real talk
+Actually building the attack yourself hits different. You stop thinking “people are dumb for falling for this” and start thinking “holy crap I would totally type my password here.”
+
+Day 2 complete. Christmas is now in even more danger because I know how to make it worse.
+
+Next time someone’s getting phished in this house (ethically, in a lab, relax).
+
+#AdventOfCyber #Phishing #RedTeam #SEToolkit #NowIKnowHowToRuinChristmas
