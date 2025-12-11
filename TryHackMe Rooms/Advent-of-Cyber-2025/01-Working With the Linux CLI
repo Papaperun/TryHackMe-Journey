@@ -1,4 +1,25 @@
-Working With the Linux CLI
-This day was pretty useful. I learned some easier ways to move around the CLI
+# Day 1 – Oh no! Christmas is Cancelled (Learning Objectives)
 
-Place holder for now 
+Mood going in: "It's literally Day 1, how hard can it be?"  
+Mood coming out: Secretly impressed that a beginner room actually taught me stuff
+
+Honestly? I walked in cocky because I’ve used Linux before…  
+…then immediately forgot half the basic commands and had to Google “how to list hidden files again.”
+
+## What actually stuck
+- `grep` is still the goat, no notes in my brain forever
+- `find` saved my life more than once
+- Piping with `|` felt like cheating and I’m here for it
+- Navigation was smoother than expected once I stopped overthinking
+
+The little Christmas story was genuinely fun; felt like playing a detective game instead of “learning.”  
+They somehow made `ls`, `cd`, and `cat` feel exciting. Respect.
+
+## Real talk
+Not much to rage about; room did exactly what it said on the tin.  
+I just wish every beginner tutorial was this smooth instead of throwing you into man pages and telling you to suffer.
+
+Day 1 complete. Christmas is (temporarily) saved.  
+On to the next one whenever the free timer stops hating me.
+
+#AdventOfCyber #Linux #BabyStepsButMakeItFun
