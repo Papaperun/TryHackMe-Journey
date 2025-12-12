@@ -1,0 +1,29 @@
+## Day 5 – Insecure Direct Object Reference (IDOR)  
+**Status:** ✅ Completed (felt illegal the whole time)  
+**Vulnerability type:** Classic IDOR – not SQLi  
+
+### What the task told me to do
+- Connected to the app ✓  
+- Kept hammering `/api/parents/view_accountinfo?user_id=10` six times like a noob  
+
+### Burp literally said:
+> “Try modifying the user_id parameter to explore for potential IDOR vulnerabilities.”
+
+### What I actually did next
+- Changed `user_id=10` → `user_id=1` → `2` → `3` …  
+- Suddenly looking at other parents’ accounts  
+- Found the admin account (or the flag holder)  
+- Flag get  
+
+### Mind-blown moment #2
+This is the exact same technique Moxie used on Apple’s intro badges:  
+→ Look at a numeric identifier → increment it → profit.  
+I just recreated a famous real-world hack in a browser tab.
+
+### Current vibe
+- The “I’m gonna break everything” feeling is still there… but it’s starting to feel like excitement instead of fear  
+- Starting to trust the process: when something feels sketchy, that’s usually the right path  
+- Burp basically held my hand and said “just change the number, dummy” – and it worked  
+
+
+Keep clicking the scary thing.  
