@@ -1,0 +1,23 @@
+# Day 4 – AI in Security: Old sAInt Nick (SQLi + AI = Chaos I Love)
+
+Mood going in: "AI? In Advent of Cyber? Alright I’m listening"  
+Mood coming out: Full gremlin mode, I would like to speak to the manager of reality
+
+Hands-down the most fun I’ve had so far.
+
+- I learned SQL injection way back in February but never actually got to actually USE it (because, you know… jail)
+- Today I finally got to type `' OR 1=1--` in anger and it WORKED. dream achieved.
+- The AI part felt completely natural; it was literally just chatting with a bot until it spilled the exact payload I needed
+- Then we wrote a tiny Python script with nano… and bro, the workflow was EXACTLY what I did this morning to get pymodbus running on my Raspberry Pi Zero
+
+Same vibes:  
+nano something.py → python3 something.py → watch the magic happen  
+Except this time the magic was stealing credentials instead of reading sensor data lol
+
+I didn’t know I needed “weaponized ChatGPT + classic SQLi” in my life but now it’s all I want to do forever.
+
+Day 4 is proof that cyber can be fun as hell when they let you actually break stuff (legally).
+
+Christmas is saved, but my moral compass is now slightly bent.
+
+#AdventOfCyber #SQLinjection #AI #RedTeam #ThisIsWhyWeCantHaveNiceThings
