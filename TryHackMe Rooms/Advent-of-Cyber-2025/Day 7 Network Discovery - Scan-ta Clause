@@ -1,0 +1,114 @@
+Focus: Service logic, timing issues, protocol thinking, tool expansion
+
+🔑 Key Takeaways
+
+This box was less about “knowing commands” and more about understanding system behavior. The main difficulty came from undocumented state changes and timing-dependent logic.
+
+🧠 Lessons Learned
+1. Not All Prompts Are Linux
+
+The TBFC maintd v0.2 prompt was a custom service shell, not Bash.
+
+Only the commands exposed via HELP were valid.
+
+Trying ls, cat, etc. was a natural instinct — but incorrect for this environment.
+
+Lesson:
+When a banner + HELP menu exists, stop thinking “files” and start thinking “protocol.”
+
+2. Timing / State Bugs Are Real
+
+GET KEY failed with not armed
+
+STATUS showed armed_for=0s
+
+No explicit “ARM” command existed
+
+The trick:
+
+STATUS briefly mutated service state
+
+The service was only “armed” for a very short window
+
+Running STATUS immediately followed by GET KEY returned the hidden key
+
+Lesson:
+Read-only commands are not always read-only.
+Timing and state matter, especially in poorly designed services (very realistic in OT/ICS).
+
+3. Netcat Is a Transport, Not a Tool
+
+nc was used to interact with the service
+
+Netcat doesn’t “do” anything — it just opens a raw connection
+
+The logic lived entirely in the service, not the tool
+
+Lesson:
+Netcat = wire access. Understanding the protocol is everything.
+
+4. FTP Is Also a Shell (Conceptually)
+
+FTP isn’t just “file transfer”
+
+It’s an interactive service with commands, state, and permissions
+
+Similar mental model to SSH or custom service shells
+
+Lesson:
+Protocols are interfaces. Treat them like shells with rules, not just utilities.
+
+5. Nmap Is More Than Scans
+
+Nmap was used beyond simple discovery
+
+Helped identify services, ports, and behavior
+
+Reinforced thinking in terms of exposed interfaces, not just open ports
+
+Lesson:
+Nmap is a reconnaissance framework, not just a scanner.
+
+6. “How Was I Supposed to Know?”
+
+This box introduced:
+
+Timing-dependent logic
+
+State mutation via STATUS
+
+Nonstandard service behavior
+
+Unfamiliar MySQL interaction
+
+Frustration came from lack of prior exposure, not lack of ability.
+
+Lesson:
+This wasn’t “too advanced” — it was new territory.
+Pattern recognition only forms after first exposure.
+
+🧭 Meta-Lesson
+
+This challenge felt confusing because it required:
+
+Thinking like a service developer
+
+Observing behavior instead of guessing commands
+
+Accepting that some systems are intentionally poorly designed
+
+That’s not CTF trickery — that’s real-world systems.
+
+✅ What Improved
+
+Comfort with non-Linux service prompts
+
+Understanding of timing/state bugs
+
+Better mental model of FTP and custom services
+
+Expanded use of Nmap beyond basic scans
+
+🗒️ One-Line Summary (for future me)
+
+This box taught me that services lie, STATUS can change state, timing matters, and tools are just interfaces — behavior is the real target.
