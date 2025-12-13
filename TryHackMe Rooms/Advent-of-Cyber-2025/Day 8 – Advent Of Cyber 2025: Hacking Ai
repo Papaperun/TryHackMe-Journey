@@ -1,0 +1,83 @@
+## 🎄 Day 8 – Advent of Cyber 2025 (TryHackMe)
+
+### Topic
+
+**Hacking AI – how AI systems can be manipulated, misled, or used against themselves.**
+
+---
+
+## 🎯 Overview
+
+This room explored how AI systems can be attacked in ways that feel very similar to classic vulnerabilities (like SQL injection), but adapted to modern AI-driven workflows.
+
+I use AI daily in both my personal and professional life, so this was especially interesting. Seeing how AI can be exploited — sometimes using its *own logic* — reinforced that AI is a tool, not magic.
+
+---
+
+## 🧠 Key Concepts Learned
+
+### 1. AI Can Be Attacked Like Any Other System
+
+* AI systems still rely on:
+
+  * Inputs
+  * Context
+  * Assumptions
+* If those inputs are manipulated, the output can be manipulated
+
+This felt very similar to:
+
+* SQL injection
+* Command injection
+* Logic abuse vulnerabilities
+
+Different surface, same core problem.
+
+---
+
+### 2. Prompt Manipulation / AI Abuse
+
+* Carefully crafted input can:
+
+  * Bypass intended restrictions
+  * Change AI behavior
+  * Extract unintended responses
+
+This reinforces that **AI safety is not automatic** — it must be designed, tested, and monitored like any other system.
+
+---
+
+## ⚠️ Lab Issues Encountered
+
+* The AttackBox experienced glitches during the lab
+* After refreshing, the environment unexpectedly revealed the answer
+
+Even though the solution was exposed early:
+
+* I still completed the steps manually
+* I treated it as a learning exercise rather than just checking the box
+
+---
+
+## 🧩 Takeaways
+
+* AI can be exploited using familiar attacker mindsets
+* Prompt-based attacks are a real-world concern
+* Understanding *why* an AI responds a certain way is more important than memorizing tricks
+* AI should be treated like any other system that accepts user input
+
+---
+
+## ✍️ Personal Reflection
+
+Even with the lab hiccup, this was a fun and eye-opening room. It reinforced that AI isn’t replacing fundamentals — it’s **adding a new layer where the same old mistakes can still happen**.
+
+---
+
+## 🗒️ One-Line Summary (Future Me)
+
+> Day 8 showed that AI can be attacked much like traditional systems — manipulate the input, manipulate the output — and that AI security is still just security.
+
+---
+
+✅ End of Notes
