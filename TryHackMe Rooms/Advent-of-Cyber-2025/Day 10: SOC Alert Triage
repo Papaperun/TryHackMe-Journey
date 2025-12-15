@@ -1,0 +1,20 @@
+Day 10: SOC Alert Triage
+Overview
+
+Why alert triage and prioritization actually matter.
+Poke around in Microsoft Sentinel to review and analyze alerts.
+Correlate logs to figure out what’s real and assign verdicts.
+
+Key Learnings
+
+Triage is everything in a SOC — separating real threats from endless noise.
+In my day job with SCADA, half the alarms are dumb: a tank level we don’t even control going off, or an eyewash station triggering because it’s raining (thanks, moisture sensors). We live and die by filtering the important ones.
+
+Challenges & Reflections
+
+This room fought me hard. No matter what I did, the right Sentinel logs refused to show up.
+Might be a skill issue on my end, but I hit peak frustration and just watched the walkthrough so I wouldn’t stall out completely.
+Side note: I now officially have beef with the task bot.
+
+Final Thoughts
+Even without hands-on Sentinel, the concepts hit home — basically what I do every day with industrial alarms.
