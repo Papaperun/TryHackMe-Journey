@@ -1,0 +1,17 @@
+Overview
+
+How XSS actually works.
+How to stop it from happening.
+
+Key Learnings
+
+It’s like SQL injection’s evil cousin, but on the client side with JavaScript.
+Input validation, escaping output, CSP headers — the usual defenses.
+
+Challenges & Reflections
+
+This room was clean, smooth, and honestly pretty cool.
+I want to come back and play with XSS payloads more on my own time.
+
+Final Thoughts
+One of the rare rooms that didn’t make me want to throw my keyboard.
