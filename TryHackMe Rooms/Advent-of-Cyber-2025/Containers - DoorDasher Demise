@@ -1,0 +1,21 @@
+Day 14: Containers - DoorDasher Demise
+Overview
+
+How containers and Docker actually work.
+Docker runtime basics.
+Investigate a compromised container setup.
+
+Key Learnings
+
+Useful commands: docker ps, docker exec, whoami, cat, etc.
+Container escapes and privilege escalation risks.
+
+Challenges & Reflections
+
+Hands-down my favorite day so far.
+Finally started chipping away at the Docker intimidation I’ve carried all year.
+Got thrown off by having to mess with port mapping in a way I’d never done before.
+Once I saw familiar commands like whoami and cat (stuff I’ve practiced on my own), I relaxed and it clicked.
+
+Final Thoughts
+This room made containers feel way less mysterious. Huge confidence boost.
