@@ -1,0 +1,19 @@
+Overview
+
+Spotting phishing emails.
+Current trending techniques.
+Difference between spam and actual phishing.
+
+Key Learnings
+
+Attackers usually want:
+Credentials (remember McCann Institute’s Code Red campaign?).
+Drop malware.
+Steal data.
+Straight-up money.
+
+Classic red flags: impersonation, fake urgency, side-channel weirdness, obvious malicious intent.
+Fancier stuff: typosquatting, punycode homoglyphs (I swear I read it as “bunycode” at first — thank you dyslexia + Christmas theme brain).
+A little OSINT goes a long way in making these super targeted.
+True story: Had a coworker once say, “Why would I need to learn this? I’m too dumb for hackers to bother with me.”
+I bit my tongue so hard. Bro… that’s exactly why they’d target you.
