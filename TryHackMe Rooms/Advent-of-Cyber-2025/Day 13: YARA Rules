@@ -1,0 +1,22 @@
+Day 13: YARA Rules (YARA = Yet Another Recursive Acronym — love it)
+Overview
+
+Writing and using YARA rules to hunt malware.
+
+Key Learnings
+
+Used for:
+Post-incident forensics.
+Proactive threat hunting.
+Intelligence-driven scans.
+Memory analysis.
+
+Rules look for strings, hex patterns, and conditions.
+
+Challenges & Reflections
+
+This one kicked my butt — had to lean on the walkthrough for parts.
+At least my prior nano experience made editing the rule file less scary.
+
+Final Thoughts
+YARA is powerful but not clicking for me yet. Definitely needs more practice
