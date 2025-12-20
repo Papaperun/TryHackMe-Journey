@@ -1,0 +1,2 @@
+This room was all about digging into the Windows Registry. They showed us how to use regedit and offline registry tools to pull hives and read them.
+Personal win: I’ve always wondered how forensics guys go “yep, a USB flash drive was plugged in on this date” just from a computer. Now I’ve seen it with my own eyes — USBStor keys, device serials, last write times, the whole thing. No more mystery. Finally got to peek under the hood and go “ohhh, that’s how they know.” Felt good.
